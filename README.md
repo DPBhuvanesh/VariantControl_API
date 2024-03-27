@@ -13,17 +13,18 @@ This project utilizes FastAPI and PostgreSQL to manage variants of dresses. It i
 2. Navigate to the project directory in your terminal.
 
 ## 1.Install the project dependencies by running:
-
-## pip install -r requirements.txt
+ ``` bash
+ pip install -r requirements.txt
+```
 
 ## 2.Create a PostgreSQL database and update the database details in the project configuration. 
-
+``` python
 EXAMPLE : DATABASE_URL = "postgresql://username:password@localhost/databasename"
-
+```
 ## 3. Run the FastAPI application using Uvicorn:
-
+```python
 uvicorn main:app --reload
-
+```
 ## 4.Example for acessing API
 
 Access the API at http://localhost:8000/doc#/ to explore the Swagger UI documentation and interact with the API endpoints.
