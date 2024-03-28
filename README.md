@@ -45,12 +45,13 @@ EXAMPLE : DATABASE_URL = "postgresql://username:password@localhost/databasename"
 uvicorn main:app --host 0.0.0.0 --port 80
 
 ```
-##4. Run this as locahost to access the API
+## 4. Run this as locahost to access the API
 
 ``` site
 http://localhost/docs
 ```
-## 5. This code have been pytested and Tested many times so If you have any trouble please post it.
+
+This code have been pytested and Tested many times so If you have any trouble please post it.
 
 ## This Project helps me to learn more things in FastAPI and Sqlalchemy, I have learnt PostregresSQL and it's Function.
 ## Contributing
