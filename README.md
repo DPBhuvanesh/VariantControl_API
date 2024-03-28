@@ -18,6 +18,10 @@ This project utilizes FastAPI and PostgreSQL to manage variants of dresses. It i
 ```
 
 ## 2.Create a PostgreSQL database and update the database details in the project configuration. 
+   
+   Download PGAdmin 4 and PostregresSQL for your system. Open PGadmin4 create and server and database.
+   Set the password in Installation. 
+
 ``` python
 EXAMPLE : DATABASE_URL = "postgresql://username:password@localhost/databasename"
 ```
