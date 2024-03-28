@@ -67,7 +67,11 @@ def create_dress_with_variants(dress_Type: schemas.DressCreate, Variants_Type: L
 def update_dress(dress_id: int, dress_update: schemas.DressCreate, db: Session = Depends(get_db)):
     
     updated_dress = crud.update_item(db, dress_id, dress_update)
+    if updated_dress is None:
+        raise HTTPException(status_code=404, detail="Dress not found") #error handling implement in program
     return updated_dress
+ 
+    
 
 
 #this update the variant with using id to detect it 
@@ -77,7 +81,7 @@ def update_variant(variant_id: int, variant_update: schemas.VariantCreate, db: S
     updated_variant = crud.update_variant(db, variant_id, variant_update)
     if updated_variant is None:
         raise HTTPException(status_code=404, detail="Variant not found")
-    return updated_variant
+    return updated_variant   #Error handling
 
 #it gets or retrives  product along with variants
 @app.get("/product/{product_name}", response_model=schemas.Dress)
@@ -85,7 +89,7 @@ def get_product_with_variants(product_name: str, db: Session = Depends(get_db)):
     product = crud.get_product_with_variants_by_name(db, product_name)
     if product is None:
         raise HTTPException(status_code=404, detail="Product not found")
-    return product
+    return product #error handling 
 
 
 #this used to handle the logging operation
