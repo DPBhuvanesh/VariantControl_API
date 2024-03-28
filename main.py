@@ -97,7 +97,7 @@ async def read_it():
 # help uvicron to run without error  
 if __name__ == "__main__":
     import uvicorn
-     uvicorn.run(app, host="0.0.0.0", port=80) #run the application in localhost
+    uvicorn.run(app, host="0.0.0.0", port=80) #run the application in localhost
     # it set uvicorn logging level to debug
     uvicorn_config = uvicorn.Config(app='main:app', log_level='debug')
     
