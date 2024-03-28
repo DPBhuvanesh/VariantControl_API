@@ -6,7 +6,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
 
-URL_DATABASE= "postgresql://postgres:root@localhost:5432/db_demo"
+URL_DATABASE= "postgresql://"
     #for postregres to create change //username:password@localhost:port/database_name
 
 
