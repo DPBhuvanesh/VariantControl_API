@@ -53,7 +53,7 @@ http://localhost/docs
 
 This code have been pytested and Tested many times so If you have any trouble please post it.
 
-## This Project helps me to learn more things in FastAPI and Sqlalchemy, I have learnt PostregresSQL and it's Function.
+## This Project helps me to learn more things in FastAPI and Sqlalchemy, I have learnt PostregreSQL and it's Function.
 ## Contributing
 If you'd like to contribute to this project, feel free to fork it and submit a pull request with your changes. Contributions are welcome!
 
