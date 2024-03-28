@@ -21,14 +21,11 @@ This project utilizes FastAPI and PostgreSQL to manage variants of dresses. It i
 ``` python
 EXAMPLE : DATABASE_URL = "postgresql://username:password@localhost/databasename"
 ```
-## 3. Run the FastAPI application using Uvicorn:
+## 3. Run the FastAPI application using Uvicorn,This runs on localhost 
 ```python
-uvicorn main:app --reload
+http://localhost/docs
 ```
-## 4.Example for acessing API
-
-Access the API at http://localhost:8000/doc#/ to explore the Swagger UI documentation and interact with the API endpoints.
-
+## This Project helps me to learn more things in FastAPI and Sqlalchemy, I have learnt PostregresSQL and it's Function.
 ## Contributing
 If you'd like to contribute to this project, feel free to fork it and submit a pull request with your changes. Contributions are welcome!
 
