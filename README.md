@@ -11,7 +11,22 @@ This project utilizes FastAPI and PostgreSQL to manage variants of dresses. It i
 
 1. Clone this repository to your local machine.
 2. Navigate to the project directory in your terminal.
+3. Use any code editor and run python environment
+4. Must Activate the environment in powershell or any terminal you have
+5. This help to run in virual environment, freeze the version of software and runs the smoothly program.
+If you want to frezze use freeze command to freeze the version
+   
 
+## This is for powershell
+``` environment
+ python -m venv env
+```
+``` activate
+.\\env\Scripts\activate.ps1
+```
+
+
+   
 ## 1.Install the project dependencies by running:
  ``` bash
  pip install -r requirements.txt
@@ -35,6 +50,7 @@ uvicorn main:app --host 0.0.0.0 --port 80
 ``` site
 http://localhost/docs
 ```
+## 5. This code have been pytested and Tested many times so If you have any trouble please post it.
 
 ## This Project helps me to learn more things in FastAPI and Sqlalchemy, I have learnt PostregresSQL and it's Function.
 ## Contributing
