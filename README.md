@@ -25,10 +25,17 @@ This project utilizes FastAPI and PostgreSQL to manage variants of dresses. It i
 ``` python
 EXAMPLE : DATABASE_URL = "postgresql://username:password@localhost/databasename"
 ```
-## 3. Run the FastAPI application using Uvicorn,This runs on localhost 
+## 3. Run the FastAPI application using Uvicorn
 ```python
+uvicorn main:app --host 0.0.0.0 --port 80
+
+```
+##4. Run this as locahost to access the API
+
+``` site
 http://localhost/docs
 ```
+
 ## This Project helps me to learn more things in FastAPI and Sqlalchemy, I have learnt PostregresSQL and it's Function.
 ## Contributing
 If you'd like to contribute to this project, feel free to fork it and submit a pull request with your changes. Contributions are welcome!
